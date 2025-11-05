@@ -8,10 +8,14 @@
 </head>
 <body>
 	<form action="validate" method="post">
+		<p style="color:red;">${error }</p>
 		Enter Username <input type="text" name="user"><br/>
 		Enter Password <input type="password" name="pass"><br/>
 		<input type="submit" value="Login">
+		
+		
 	</form>
+	
 
 </body>
 </html>
